@@ -5,7 +5,7 @@ import Document, {
   Main,
   NextScript,
   DocumentContext,
-} from "next/document";
+} from 'next/document';
 
 class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
@@ -20,33 +20,9 @@ class MyDocument extends Document {
         <Head>
           <meta
             property="og:title"
-            content="init.tips - start on the right stack"
+            content="nextjs-tailwind-ts-template - nextjs starter"
           />
-          <meta
-            name="description"
-            content="Getting started with a new project doesn't have to be hard. Take our recommendations to begin on the right foot. Open source. Currently recommending Next.js and TypeScript"
-          />
-          <meta
-            property="og:description"
-            content="Getting started with a new project doesn't have to be hard. Take our recommendations to begin on the right foot. Open source. Currently recommending Next.js and TypeScript"
-          />
-          <meta property="og:url" content="https://init.tips/" />
-          <meta property="og:type" content="website" />
           <link rel="icon" href="/favicon.svg?v=2" />
-          <meta
-            property="og:image"
-            content={"https://init.tips/twitter-banner.png"}
-          />
-          <meta
-            name="twitter:image"
-            content={"https://init.tips/twitter-banner.png"}
-          />
-          <meta name="twitter:card" content="summary_large_image" />
-          <link
-            rel="apple-touch-icon"
-            sizes="180x180"
-            href="/apple-touch-icon.png?v=2"
-          />
           <link
             rel="icon"
             type="image/png"
